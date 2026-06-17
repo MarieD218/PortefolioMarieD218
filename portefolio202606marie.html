@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- ③ VOTRE fichier  -->
-    <link  rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="theme.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,7 +21,9 @@
     <!-- ════════ NAVBAR ════════ -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         <div class="container">
-            <a class="navbar-brand" href="#">À propos</a>
+            <a class="navbar-brand" href="#">
+                <img src="/images/marie_doutrepont_logo_vec.svg" alt="" style="height: 40px;">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,7 +40,8 @@
     <!-- ════════ HERO ════════ -->
     <header class="py-5 bg-body-tertiary">
         <div class="container text-center py-4">
-            <h1 class="display-4 fw-bold mb-3">ACCESSOIRES EN MAILLE</h1>
+            <h1 class="display-4 fw-bold mb-3">MARIE DOUTREPONT</h1>
+            <h1 class="display-4 fw-bold mb-3">Accessoires en maille</h1>
             <p class="lead text-secondary mb-4 mx-auto" style="max-width: 60ch;">
                 Articles imaginés et tricotés en Belgique.
                 Laines soigneusement recyclées, séries limitées.
@@ -53,7 +56,7 @@
     <!-- ════════ BANDEAU PROMO ════════ -->
     <div class="container my-4">
         <div class="alert alert-primary d-flex align-items-center justify-content-center mb-0" role="alert">
-            🎉 Livraison offerte dès 50&nbsp;€ d'achat ce week-end.
+            🎉 Livraison offerte en point relais, en Belgique!
         </div>
     </div>
 
@@ -64,55 +67,57 @@
             <div class="row g-4">
 
                 <!-- Chaque colonne porte la classe .product-card-animation (à VOUS de la coder) -->
-                <div class="col-12 col-sm-6 col-lg-3 product-card-animation">
+                <div class="col-12 col-sm-6 col-lg-4 product-card-animation">
                     <div class="card h-100">
-                        <svg class="card-img-top" viewBox="0 0 400 260" role="img" aria-label="Photo produit">
-                            <rect width="400" height="260" fill="#e2e8f0" />
-                            <circle cx="200" cy="130" r="60" fill="#cbd5e1" />
-                        </svg>
+                        <img src="/images/01Lshapebleu.webp" class="card-img-top" alt="écharpe laine bleu">
                         <div class="card-body">
-                            <span class="badge text-bg-success mb-2">Nouveau</span>
-                            <h5 class="card-title">Tasse en grès</h5>
-                            <p class="card-text text-secondary">Émaillée à la main, 30 cl.</p>
+                            <span class="badge text-bg-success mb-2">Must have</span>
+                            <h5 class="card-title">Modèle L-shape</h5>
+                            <p class="card-text text-secondary">95% laine recyclée - 5% autres fibres</p>
+                            <p class="card-text text-secondary">Coloris présenté: Bleu nuit</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <strong>24 €</strong>
-                                <button class="btn btn-sm btn-primary">Ajouter</button>
+                                <strong>198 €</strong>
+                                <button class="btn btn-sm btn-primary">Ajouter au panier</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-lg-3 product-card-animation">
+                <div class="col-12 col-sm-6 col-lg-4 product-card-animation">
                     <div class="card h-100">
-                        <svg class="card-img-top" viewBox="0 0 400 260" role="img" aria-label="Photo produit">
-                            <rect width="400" height="260" fill="#e2e8f0" />
-                            <circle cx="200" cy="130" r="60" fill="#cbd5e1" />
-                        </svg>
+                        <img src="/images/03CollarGris.webp" class="card-img-top" alt="écharpe laine gris">
                         <div class="card-body">
-                            <span class="badge text-bg-success mb-2">Nouveau</span>
-                            <h5 class="card-title">Tasse en faience</h5>
-                            <p class="card-text text-secondary">Émaillée à la main, 30 cl.</p>
+                            <span class="badge text-bg-success mb-2">Préféré</span>
+                            <h5 class="card-title">Modèle Collar Medium</h5>
+                            <p class="card-text text-secondary">95% laine recyclée - 5% autres fibres</p>
+                            <p class="card-text text-secondary">Coloris présenté: Gris Antracite</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <strong>24 €</strong>
-                                <button class="btn btn-sm btn-primary">Ajouter</button>
+                                <strong>198 €</strong>
+                                <button class="btn btn-sm btn-primary">Ajouter au panier</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-lg-3 product-card-animation">
+                <div class="col-12 col-sm-6 col-lg-4 product-card-animation">
                     <div class="card h-100">
-                        <svg class="card-img-top" viewBox="0 0 400 260" role="img" aria-label="Photo produit">
-                            <rect width="400" height="260" fill="#e2e8f0" />
-                            <circle cx="200" cy="130" r="60" fill="#cbd5e1" />
-                        </svg>
+                        <img src="/images/02Navybordeaux.webp" class="card-img-top" alt="écharpe laine bordeaux">
                         <div class="card-body">
-                            <span class="badge text-bg-danger mb-2">Dernier</span>
-                            <h5 class="card-title">Carnet relié</h5>
-                            <p class="card-text text-secondary">Papier recyclé, 120 pages.</p>
+                            <span class="badge text-bg-success mb-2">Intemporel</span>
+                            <h5 class="card-title">Modèle Navy Medium</h5>
+                            <p class="card-text text-secondary">95% laine recyclée - 5% autres fibres</p>
+                            <p class="card-text text-secondary">Coloris présenté: Rouge bordeaux</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <strong>15 €</strong>
-                                <button class="btn btn-sm btn-primary">Ajouter</button>
+                                <strong>198 €</strong>
+                                <button class="btn btn-sm btn-primary">Ajouter au panier</button>
                             </div>
                         </div>
-... (55lignes restantes)
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
