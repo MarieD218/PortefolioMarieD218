@@ -18,9 +18,9 @@
 :root {
 
   /* — Couleurs — (changez le hex ; pensez à mettre à jour le -rgb plus bas) */
-  --my-primary:   rgb(164, 193, 21);
+  --my-primary:   rgb(53, 80, 107);
   --my-secondary: #64748b;
-  --my-success:   #16a34a;
+  --my-success:   rgb(84, 161, 189);
   --my-info:      #0ea5e9;
   --my-warning:   #f59e0b;
   --my-danger:    #dc2626;
@@ -45,9 +45,9 @@
    ⚠ Le -rgb ne se calcule pas tout seul : gardez-le synchro avec le hex.
    ───────────────────────────────────────────────────────────────── */
 :root {
-  --bs-primary:   var(--my-primary);    --bs-primary-rgb:   164, 193, 21;
+  --bs-primary:   var(--my-primary);    --bs-primary-rgb:   53, 80, 107;
   --bs-secondary: var(--my-secondary);  --bs-secondary-rgb: 100, 116, 139;
-  --bs-success:   var(--my-success);    --bs-success-rgb:   22, 163, 74;
+  --bs-success:   var(--my-success);    --bs-success-rgb:   84, 161, 189;
   --bs-info:      var(--my-info);       --bs-info-rgb:      14, 165, 233;
   --bs-warning:   var(--my-warning);    --bs-warning-rgb:   245, 158, 11;
   --bs-danger:    var(--my-danger);     --bs-danger-rgb:    220, 38, 38;
